@@ -42,8 +42,8 @@ def delete_item(item_id):
 @app.route('/cookie', methods=['GET'])
 def set_cookie():
     resp = make_response("Cookie is set")
-    resp.set_cookie('username', 'TuNombre')
-    resp.set_cookie('career', 'TuCarrera')
+    resp.set_cookie('username', 'DiegoToriz')
+    resp.set_cookie('career', 'Cibernetica')
     return resp
 
 # Ruta para leer las cookies
